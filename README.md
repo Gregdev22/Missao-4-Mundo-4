@@ -94,9 +94,24 @@ DELETE FROM Orders WHERE OrderID = 2;
 
 <br>
 :triangular_flag_on_post: Misão Prática - LogiMove Transportes 
-<img src=""  width="640" height="360">
-<img src=""  width="640" height="360">
-<img src=""  width="640" height="360">
+
+<h5>Configuração e Acesso ao Banco de Dados</h5>
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/LogiMoveTransportes/mp1.png"  width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/LogiMoveTransportes/mp2.png"  width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/LogiMoveTransportes/mp3.png"  width="640" height="360">
+
+<h5>Criação e Estruturação das Tabelas</h5>
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/LogiMoveTransportes/mp4.png"  width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/LogiMoveTransportes/mp5.png"  width="640" height="360">
+
+<h5>Inserção e Gestão de Dados</h5>
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/LogiMoveTransportes/mp6.png"  width="640" height="360">
+
+<h5>Execução e Validação de Consultas + Operações CRUD Eficientes </h5>
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/LogiMoveTransportes/mp7.png"  width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/LogiMoveTransportes/mp8.png"  width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/LogiMoveTransportes/mp9.png"  width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/LogiMoveTransportes/mp10.png"  width="640" height="360">
 
 <br>
 
