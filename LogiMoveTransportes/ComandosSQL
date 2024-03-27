@@ -22,4 +22,5 @@ INSERT INTO Orders (OrderID, ClientID, DriverID, DetalhesPedido, DataEntrega, St
 (3, 3, 3, 'Entregar 10 janelas de vidro', '2024-04-05', 'Pendente')
 GO
 
+--- mp6 Visualizar as tabelas criadas --
 --- 
