@@ -34,32 +34,69 @@
 * Criar e configurar um aplicativo web no Azure, demonstrando compreensão do mecanismo de hospedagem e implantação de aplicativos web.
 <hr>
 
+<h1> Códigos </h1>
+
+* Criação e Estruturação das Tabelas:
+  
+``` SQL
+CREATE TABLE Motoristas (DriverID INT PRIMARY KEY,Nome VARCHAR(100),CNH VARCHAR(20),Endereço VARCHAR(200),Contato VARCHAR(50));
+CREATE TABLE Clients (ClientID INT PRIMARY KEY, Nome VARCHAR(100),Empresa VARCHAR(100),Endereço VARCHAR(200),Contato VARCHAR(50));
+CREATE TABLE Orders (OrderID INT PRIMARY KEY,ClientID INT,DriverID INT,DetalhesPedido TEXT,DataEntrega DATE,Status VARCHAR(50),FOREIGN KEY (ClientID) REFERENCES Clients(ClientID),FOREIGN KEY (DriverID) REFERENCES Drivers(DriverID));
+
+```
+* Inserção e Gestão de Dados:
+
+```SQL
+INSERT INTO Motoristas (DriverID, Nome, CNH, Endereço, Contato) VALUES (1, ' Cauã Cláudio Filipe Cavalcanti ', ' 18.276.671-8 ', ' Rua Jonatas Batista, 201, Mafua', ' (86) 2754-8416 '), (2, ' Joana Sara Porto ', ' 42.567.195-1 ', 'Travessa Alto do Monte, 210, Planalto', ' (84) 2756-0406'), (3, ' Heloisa Bruna Nogueira', ' 13.202.243-6', 'Rua Sílvio Bussadori, 102, Centro', ' (43) 2765-1015')
+INSERT INTO Clients (ClientID, Nome, Empresa, Endereço, Contato) VALUES
+(1, ' Rebeca e Lívia Limpeza ME ', ' Rebeca e Lívia Limpeza ME ', 'Rua Yoshihisa Naruki, 10, Centro', ' (19) 3723-4495 '),
+(2, ' Kauê e Marlene Entulhos ME ', ' Kauê e Marlene Entulhos ME ', ' Rua Professora Waldecir Amaral, 20, Jardim Nova Aparecida ', ' (16) 2768-8943 '),
+(3, ' Cristiane e Joana Vidros ME ', ' Cristiane e Joana Vidros ME ', ' Rua São Vicente das Minas, 300, Jardim Nova Taboão ', ' (11) 3624-4623 ')
+INSERT INTO Orders (OrderID, ClientID, DriverID, DetalhesPedido, DataEntrega, Status) VALUES
+(1, 1, 1, 'Entregar 10 caixas de produtos de limpeza', '2024-03-26', 'Finalizado'),
+(2, 2, 2, 'Retirar 5 Toneladas de Entulho', '2024-05-05', 'Pendente'),
+(3, 3, 3, 'Entregar 10 janelas de vidro', '2024-04-05', 'Pendente')
+```
+
+* Execução e Validação de Consultas + Operações CRUD Eficientes:
+
+```SQL
+SELECT C.Nome, C.Endereço FROM Clients C JOIN Orders O ON C.ClientID = O.ClientID WHERE O.Status = 'Pendente';
+SELECT C.Nome, C.Endereço FROM Clients C JOIN Orders O ON C.ClientID = O.ClientID WHERE O.Status = 'Finalizado';
+SELECT M.Nome, M.CNH FROM Motoristas M
+SELECT C.Nome, C.Endereço FROM Clients C
+UPDATE Orders SET Status = 'Finalizado' WHERE OrderID IN (2, 3);
+DELETE FROM Orders WHERE OrderID = 2;
+```
+<br>
+
+<hr>
 <h1>Resultados: </h1>
 
 <br>
 :triangular_flag_on_post: Microatividade 2: 
-<img src="https://github.com/Gregdev22/Missao-3-Mundo-4/blob/main/Microatividades/ListaDeTarefas/MA%202.png" alt="resultado 1" width="640" height="360">
+<img src="" width="640" height="360">
 
 <br>
 :triangular_flag_on_post: Microatividade 3: 
-<img src="https://github.com/Gregdev22/Missao-3-Mundo-4/blob/main/Microatividades/ListaDeTarefas/MA%203.png" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
 
 
 <br>
 :triangular_flag_on_post: Microatividade 4: 
-<img src="https://github.com/Gregdev22/Missao-3-Mundo-4/blob/main/Microatividades/ListaDeTarefas/MA%204.png" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
 
 <br>
 :triangular_flag_on_post: Microatividade 5: 
-<img src="https://github.com/Gregdev22/Missao-3-Mundo-4/blob/main/Microatividades/ListaDeTarefas/MA%2051.png" alt="resultado 1" width="640" height="360">
-<img src="https://github.com/Gregdev22/Missao-3-Mundo-4/blob/main/Microatividades/ListaDeTarefas/MA%2052.png" alt="resultado 1" width="640" height="360">
-<img src="https://github.com/Gregdev22/Missao-3-Mundo-4/blob/main/Microatividades/ListaDeTarefas/MA%2053.png" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
+<img src="" alt="resultado 1" width="640" height="360">
 
 <br>
-:triangular_flag_on_post: Misão Prática - Doma : 
-<img src="https://github.com/Gregdev22/Missao-3-Mundo-4/blob/main/Miss%C3%A3o%20Pr%C3%A1tica/Doma/MP%201.png" alt="resultado 1" width="640" height="360">
-<img src="https://github.com/Gregdev22/Missao-3-Mundo-4/blob/main/Miss%C3%A3o%20Pr%C3%A1tica/Doma/MP%202.png" alt="resultado 1" width="640" height="360">
-<img src="https://github.com/Gregdev22/Missao-3-Mundo-4/blob/main/Miss%C3%A3o%20Pr%C3%A1tica/Doma/MP%203.png" alt="resultado 1" width="640" height="360">
+:triangular_flag_on_post: Misão Prática - LogiMove Transportes 
+<img src=""  width="640" height="360">
+<img src=""  width="640" height="360">
+<img src=""  width="640" height="360">
 
 <br>
 
