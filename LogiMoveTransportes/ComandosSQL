@@ -22,3 +22,22 @@ INSERT INTO Orders (OrderID, ClientID, DriverID, DetalhesPedido, DataEntrega, St
 (3, 3, 3, 'Entregar 10 janelas de vidro', '2024-04-05', 'Pendente')
 GO
 
+-- Seleciona somente os nomes e endereços dos clientes que têm pedidos pendentes  ---
+SELECT C.Nome, C.Endereço FROM Clients C JOIN Orders O ON C.ClientID = O.ClientID WHERE O.Status = 'Pendente';
+GO
+-- Seleciona somente os nomes e endereços dos clientes que têm pedidos finalizados  ---
+SELECT C.Nome, C.Endereço FROM Clients C JOIN Orders O ON C.ClientID = O.ClientID WHERE O.Status = Finalizado;
+GO
+-- Seleciona Nome e CNH da planilha motoristas ---
+SELECT M.Nome, M.CNH FROM Motoristas M
+GO
+-- Seleciona Nome e Endereço da planilha Clients ---
+SELECT C.Nome, C.Endereço FROM Clients C
+GO
+--- Atualiza o status das Orders 2 e 3 para ‘Finalizado’ ---
+UPDATE Orders SET Status = 'Finalizado' WHERE OrderID IN (2, 3);
+GO
+-- DELETa o registro com OrderID = 2 da tabela Orders. ---
+DELETE FROM Orders WHERE OrderID = 2;
+GO
+
