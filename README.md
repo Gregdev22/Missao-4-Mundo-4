@@ -74,23 +74,32 @@ DELETE FROM Orders WHERE OrderID = 2;
 <h1>Resultados: </h1>
 
 <br>
+:triangular_flag_on_post: Microatividade 1: 
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%204.png" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%2012.png" width="640" height="360">
+
+<br>
 :triangular_flag_on_post: Microatividade 2: 
-<img src="" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%202.png" width="640" height="360">
 
 <br>
 :triangular_flag_on_post: Microatividade 3: 
-<img src="" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%203.png" alt="resultado 1" width="640" height="360">
 
 
 <br>
 :triangular_flag_on_post: Microatividade 4: 
-<img src="" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%204.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%2042.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%2043.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%2044.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%2045.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%2046.png" alt="resultado 1" width="640" height="360">
 
 <br>
 :triangular_flag_on_post: Microatividade 5: 
-<img src="" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
-<img src="" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%205.png" alt="resultado 1" width="640" height="360">
+<img src="https://github.com/Gregdev22/Missao-4-Mundo-4/blob/main/Microatividades/MA%2052.png" alt="resultado 1" width="640" height="360">
 
 <br>
 :triangular_flag_on_post: Misão Prática - LogiMove Transportes 
